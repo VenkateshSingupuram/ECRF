@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('./fonts/Century\ Gothic.ttf') format('truetype');
+  /* Add other formats if available (e.g., woff, woff2) */
+}
+
+@font-face {
+  font-family: 'CenturyGothic';
+  src: url('./fonts/CenturyGothic.ttf') format('truetype');
+  /* Add other formats if available (e.g., woff, woff2) */
+}
+
+@font-face {
+  font-family: 'AppleGothic';
+  src: url('./fonts/GOTHIC.TTF') format('truetype');
+  /* Add other formats if available (e.g., woff, woff2) */
+}

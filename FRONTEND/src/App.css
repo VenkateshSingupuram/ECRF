@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table-light {
+  --bs-table-bg: #8c9195 !important; 
+}
+
+#wrapper {
+  display: flex;
+}
+
+.sidebar {
+  background: var(--sidebar);
+  border-right: 1px solid var(--dark-90);
+  max-width: 260px;
+  min-width: 260px;
+  /* height: 100vh;
+left: 0;
+position: sticky;
+top: 0; */
+}
+
+.sidebar .logoWrap {
+  width: 100%;
+  min-height: 50px;
+  height: 64px;
+  padding: 1rem;
+  background: var(--main-bg);
+  border-bottom: 1px solid var(--dark-90);
+}
+
+.sidebar .logoWrap img {
+  height: 45px;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 0;
+  transition: margin-left .35s ease-in-out, left .35s ease-in-out, margin-right .35s ease-in-out, right .35s ease-in-out;
+  width: 100%;
+  background: var(--main-bg);
+}
+
+.content-wrapper .header-nav {
+  width: 100%;
+  height: 80px;
+  background: var(--header-nav);
+  border-bottom: 1px solid var(--dark-90);
+  padding: 1rem 3rem;
+  background-color: #e0cfcf;
+}
+
+.content-wrapper .header-nav .page-title {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+  color: var(--text-tint);
+}
+
+.content-wrapper .header-nav .header-wrapper {
+  justify-content: space-between;
+}
+
+.content {
+  direction: ltr;
+  flex: 1;
+  padding: 2rem 3rem;
+  direction: ltr;
+  flex: 1;
+
+}
+
+.content .landing-banner {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.content .landing-banner img {
+  width: 100%;
+}
+
+.content .landing-forum-wp {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content .landing-forum-wp .landing-form {
+  width: 520px;
+}
+
+.content .landing-forum-wp .landing-form h2,
+.content .landing-forum-wp .landing-form p {
+  text-align: center;
+}
+
+.content .landing-forum-wp .landing-form p {
+  color: var(--dark-30);
+  margin-bottom: 2rem;
+}
+
+.content .landing-forum-wp .landing-form label {
+  color: var(--text-tint);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.content .landing-forum-wp .landing-form .input-group {
+  margin-bottom: 2rem;
+}
+
+.content .landing-forum-wp .landing-form .input-group .btn svg {
+  width: 18px;
+}
+
+.profile-pic-dropdown {
+  position: relative;
+}
+
+.profile-pic-dropdown.dropdown-toggle::after {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+}
+
+.profile-pic-dropdown .profile_pic {
+  width: 46px;
+  height: 46px;
+  border-radius: 100%;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.profile-pic-dropdown .profile_pic img {
+  width: 100%;
+}
+
+button {
+  background-color: #e54e4e !important;
+  border: #e54e4e !important;
+}
+
+label {
+  margin-bottom: 10px !important;
+}
+
+.form-control {
+  border: 1px solid #817e7e !important;
+}
+
+.hfw6 {
+  font-weight: 600 !important;
+  color: #c92c2c !important;
+}
+
+.sideNavContent {
+  width: 100%;
+}
+
+.sideNavMainList ul,
+.sideNavMainList ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sideNavMainList ul li.containsMenus{
+  padding: 11px 14px;
+  color: #fff;
+  border-bottom: 1px solid var(--dark-90);
+  font-weight: 500;
+}
+.sideNavMainList ul li:hover{
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+.sideNavContent .p-accordion-header {
+  background: transparent;
+}
+
+.sideNavContent .p-accordion-header a .p-icon {
+  position: absolute;
+  right: 0;
+}
+
+.sideNavContent .p-accordion-header a .p-icon path {
+  fill: var(--primary);
+}
+
+.sideNavContent .p-accordion-header:hover a .p-icon path {
+  fill: var(--text-tint);
+}
+
+.sideNavContent .p-accordion-header .p-accordion-header-link {
+  text-decoration: none;
+  border: 0px;
+  background: var(--sidebar-nav);
+  border-bottom: 1px solid var(--dark-90);
+  border-radius: 0;
+}
+
+.sideNavContent .p-accordion-header .p-accordion-header-text {
+  color: var(--text-tint);
+  font-weight: 500;
+}
+
+
+.sideNavContent .p-accordion-content {
+  padding: 1rem;
+  background: var(--dark-90);
+  border: 0px;
+}
+
+.sideNavContent .p-accordion-content .sideNavList ul {
+  padding-left: 0px !important;
+  list-style: none;
+}
+
+.sideNavContent .p-accordion-content .sideNavList ul li {
+  padding: 7px 10px;
+  border-radius: 5px;
+  color: var(--text-tint);
+}
+
+.sideNavContent .p-accordion-content .sideNavList ul li:hover,
+.sideNavContent .p-accordion-content .sideNavList ul li.active:hover,
+.sideNavContent .p-accordion-content .sideNavList ul li a:hover,
+.sideNavContent .p-accordion-content .sideNavList ul li a.active:hover {
+  background-color: var(--primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+.date {
+  height: 40px !important;
+}
+
+.verticalLine {
+  border-left: 1px solid black;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.w-full {
+  width: 100% !important;
+}
+
+.customDatePickerWidth, 
+.customDatePickerWidth > div.react-datepicker-wrapper, 
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+   width: 100% !important;
+}
+
+input[type="number"] {
+  -webkit-appearance: none !important; /* Chrome, Safari, Opera */
+  -moz-appearance: textfield !important; /* Firefox */
+  appearance: textfield !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+.mL5 {
+  margin-left: 5px;
+} 
+
+.mL10 {
+  margin-left: 10px;
+} 
+
+.react-datepicker-wrapper, .react-datepicker__input-container, .react-datepicker__portal {
+  width: 100% !important;
+}
+
+.inlineFlex {
+  display: inline-flex !important;
+}
+
+.cBtn {
+  height: 12px;
+  width: 12px;
+  margin-left: 7px;
+}
+
+.cExists {
+  background-color: #aaaa86 !important;
+}
+
+.cNExists {
+  background-color: red !important;
+}

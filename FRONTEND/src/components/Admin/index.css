@@ -1,0 +1,20 @@
+.navbar {
+  /* background-color: skyblue; */
+  border: 2px solid skyblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.btn-admin {
+  width: 90px;
+  height: 33px;
+  background-color: skyblue;
+  border-width: 0px;
+  /* margin: 2px; */
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+}

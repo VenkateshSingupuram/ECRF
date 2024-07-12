@@ -1,0 +1,381 @@
+.study-txt {
+  font-size: 20px;
+  /* background-color: skyblue; */
+  color: white;
+}
+.study-container {
+  margin: 20px;
+}
+.container-width {
+  width: 40%;
+  display: flex;
+  margin-bottom: 20px;
+
+  /* border: 2px solid green; */
+}
+.container-w .label-txt {
+  padding-right: 20px;
+  display: block;
+  width: 150px;
+  /* border: 2px solid green; */
+}
+
+.studyData-container {
+  background-color: #d0dce1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 30px; */
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bg {
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  margin-top: 50px;
+}
+.study-btn {
+  height: 30px;
+  cursor: pointer;
+  /* border: 2px solid skyblue; */
+  border-width: 0px;
+  background-color: #d0b9b9 !important;
+}
+.study-btn:hover {
+  height: 35px;
+  border: 2px solid skyblue;
+}
+.study-data {
+  display: none;
+}
+.input-width-date {
+  height: 23px;
+  width: 50%;
+}
+/* SubjectData  style=========================================== */
+
+.study-txt {
+  font-size: 20px;
+  color: #100e0e;
+  padding-top: 7px;
+  padding-left: 12px;
+}
+.study-container {
+  margin: 20px;
+}
+.container-width {
+  width: 40%;
+  display: flex;
+  margin-bottom: 20px;
+  /* border: 2px solid green; */
+}
+.check {
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+.input-width {
+  width: 40%;
+  height: 20px;
+  font-size: 15 px;
+}
+
+.label-txt {
+  /* padding-right: 20px; */
+  display: block;
+  /* width: 200px; */
+  /* font-weight: 600; */
+  /* border: 2px solid green; */
+}
+.input-drop {
+  width: 41%;
+  height: 25px;
+}
+.input-checkbox {
+  margin-right: 10px;
+}
+.container-width2 {
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+  /* border: 2px solid green; */
+}
+.d-subject {
+  display: flex;
+}
+
+/* BaseLine Characteristics */
+.input-widthh-baseLine {
+  width: 100%;
+  /* height: 25px; */
+  border: 2px solid green;
+}
+.container-widthh {
+  width: 40%;
+}
+.label-txt-baseLine {
+  display: block;
+  /* width: 200px; */
+  font-weight: 600;
+  margin-left: 20px;
+}
+.container-width-baseline {
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+  /* border: 2px solid green; */
+  margin-left: 10px;
+}
+
+/* Comorbidities */
+.comorbidities1 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  border: 2px solid green;
+  /* text-align: center; */
+}
+.cc-road {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  /* width: 25%; */
+}
+.cc-road-container {
+  width: 25%;
+  padding-right: 10px;
+}
+.cc-road-containeryes {
+  width: 10%;
+  /* border: 2px solid green; */
+}
+/* Laboratory  */
+.input-range {
+  width: 20%;
+  height: 20px;
+}
+
+/* chronic liver disease (CLD) */
+.chronicliver-ww {
+  margin-bottom: 20px;
+}
+.chronic-down {
+  margin-top: 5px;
+}
+.chronicliver-ww1 {
+  margin-bottom: 40px;
+}
+.container-width-for-chronic {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.chronic-mittal {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HCC Outcomes */
+.sub-section-txt {
+  font-size: 20px;
+}
+.red-txt {
+  color: red;
+}
+
+/* Set the width and height according to your requirements */
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__portal {
+  width: 100%; /* Adjust the width as needed */
+}
+
+.react-datepicker__input-container input {
+  height: 40px; /* Adjust the height as needed */
+  width: 100%;
+}
+.container-widthd {
+  width: 50%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.container-widthd-comorbidities {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  /* border: 2px solid green; */
+}
+.tumor-stage {
+  width: 100%;
+  display: flex;
+  /* margin-bottom: 20px; */
+}
+.dd {
+  margin-left: 5px;
+}
+.applicable {
+  padding-left: 10px;
+}
+/* ////////// */
+
+.submit-buttonReview {
+  width: 200px;
+  height: 35px;
+}
+.com-baseline {
+  margin-bottom: 8px;
+}
+
+.label-to {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.label-units {
+  padding-left: 10px;
+  /* border: 2px solid green; */
+  width: 20%;
+}
+.v {
+  width: 18%;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.baseline-or {
+  padding-right: 10px;
+}
+.gap {
+  margin: 8px;
+}
+.gap-label {
+  margin-left: 30px;
+}
+.paddingg {
+  margin-top: 20px;
+}
+.label-gap-tumor-stage {
+  padding-top: 4px;
+}
+.tumor-stage1 {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  /* margin-bottom: 20px; */
+}
+.margin-right-radio {
+  margin-right: 10px;
+}
+.cirrhosis {
+  padding-top: 2px;
+}
+.mittal-bottom {
+  margin-bottom: 10px;
+}
+.subject-data {
+  padding-right: 30px;
+}
+
+.city-label {
+  padding-left: 20px;
+}
+.or-subject {
+  margin-right: 20px;
+}
+.radio-date {
+  margin-bottom: 20px;
+}
+.baseline-or2 {
+  padding-left: 10px;
+}
+.container-width2 {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+.gaps-recurrence {
+  margin-left: 30px;
+}
+.cld-last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.radio-right-gap {
+  margin-right: 10px;
+}
+.method-screening {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.date-tissue {
+  margin-bottom: 20px;
+}
+.small {
+  padding-left: 10px;
+}
+.textbox {
+  margin-left: 20px;
+}
+.txtbox {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.hcc-cm {
+  padding-left: 5px;
+}
+
+.non-liver-margin {
+  margin-top: 20px;
+}
+.g {
+  margin-left: 30px;
+}
+
+.unit {
+  /* padding-right: 20px; */
+  display: flex;
+  align-items: center;
+}
+.comorbidities-year {
+  width: 75%;
+}
+.from-to {
+  display: flex;
+}
+.alert {
+  font-size: 8px;
+  color: red;
+}
+.sos {
+  display: flex;
+  flex-direction: column;
+}
+.input-width2 {
+  width: 80%;
+  height: 20px;
+  font-size: 15 px;
+}
+.lab-checkbox-up {
+  margin-bottom: 40px;
+}
+
+.rrr {
+  display: flex;
+  flex-direction: column;
+}
+
+.pT-10 {
+  padding-top: 10px;
+}
+
+.screen-m{
+  margin-right: 6px;
+  border:2px solid green;
+}
+.hiv{
+  margin-top: 10px;
+}

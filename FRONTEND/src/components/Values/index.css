@@ -1,0 +1,31 @@
+.bb-back {
+  margin-left: 20px;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.text-comment {
+  outline: none;
+}
+.data-entry-btn {
+  margin-left: 20px;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.bb-btn {
+  margin-left: 20px;
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}

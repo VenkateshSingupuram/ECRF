@@ -1,0 +1,194 @@
+.box1 {
+  display: flex;
+  background-color: skyblue;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px; */
+  height: 40px;
+  text-align: center;
+  color: white;
+}
+
+.in-box {
+  width: 20%;
+}
+.box1:hover {
+  background-color: lightgray;
+  /* color: skyblue; */
+  cursor: pointer;
+}
+.a {
+  text-decoration: none;
+}
+.para-box {
+  display: flex;
+  /* background-color: lightgray; */
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__portal {
+  width: 64%; /* Adjust the width as needed */
+  margin-bottom: 10px;
+}
+
+.react-datepicker__input-container input {
+  height: 21px; /* Adjust the height as needed */
+  /* width: 100%; */
+}
+
+.cccc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+  /* border: 2px solid green; */
+}
+.search-input-date {
+  width: 20%;
+  height: 20px;
+  padding-left: 5px;
+  font-size: 12px;
+}
+.date-label {
+  margin-right: 10px;
+}
+.date-label2 {
+  margin-left: 10px;
+}
+.landing-btn {
+  width: 100px;
+  height: 30px;
+  border-width: 0px;
+  margin-right: 5px;
+  background-color: skyblue;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.landing-btn:hover {
+  color: skyblue;
+  border: 2px solid skyblue;
+  background-color: white;
+}
+
+.search-btn {
+  width: 60px;
+  height: 20px;
+  border-width: 0px;
+  margin-right: 5px;
+  background-color: skyblue;
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+.search-btn:hover {
+  color: skyblue;
+  border: 2px solid skyblue;
+  background-color: white;
+}
+
+.align-inbox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* border: 2px solid skyblue; */
+}
+.btn-container-add {
+  width: 15%;
+  /* border: 2px solid green; */
+  height: 100vh;
+  /* ---------------------------------------------------->changed */
+  display: flex;
+  flex-direction: column;
+  background-color: lightskyblue;
+}
+
+.inbox-contaier-width {
+  width: 100%;
+  /* height: 100vh; */
+
+  /* overflow-y: scroll; */
+  /* border: 2px solid green; */
+}
+.bg-modify {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+}
+.add-btn-inbox {
+  margin-top: 120px;
+  color: sky;
+  height: 40px;
+  background-color: #ffffff;
+  color: skyblue;
+  border-width: 0px;
+  cursor: pointer;
+}
+/* .add-btn-inbox:hover {
+  color: white;
+  border: 2px solid skyblue;
+  color: skyblue;
+  cursor: pointer;
+} */
+.db {
+  overflow-y: scroll;
+  height: 78vh;
+}
+.anchor {
+  text-decoration: none;
+}
+.display {
+  display: none;
+}
+.user-role {
+  width: 100px;
+  height: 30px;
+  border: 2px solid skyblue;
+  text-align: center;
+}
+.user-name {
+  padding-bottom: 100px;
+}
+.noData-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.no-data-size {
+  width: 350px;
+  height: 350px;
+}
+.hidded {
+  display: none;
+}
+.name {
+  font-size: 15px;
+  border: 2px solid skyblue;
+  padding: 5px;
+  margin-right: 10px;
+}
+.name:hover {
+  background-color: skyblue;
+  color: white;
+}
+.roless {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+}

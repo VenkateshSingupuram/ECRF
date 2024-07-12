@@ -1,0 +1,23 @@
+.comment-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+.button-align {
+  display: flex;
+}
+.submit-data {
+  width: 200px;
+  height: 35px;
+}
+
+.hcc-unknown{
+  margin-left:15px;
+}
+
+.cld-fatty{
+  margin-right:20px;
+}
